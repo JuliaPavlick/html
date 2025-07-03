@@ -1,20 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade form fuc</title>
+  <meta charset="UTF-8">
+  <title>Cadastro de Funcionário</title>
 </head>
 <body>
-    <h1 aling="center">Cadastro de Funcionário</h1>
-    <table>
-        <form action="" method="">
-            <fieldset>
-                <legend aling="center">Dados Pessoais</legend>
-                <label>None completo:<input type="text" name="nome"></label>
-                <label>RG:<input type="text" name="RG"></label>
-                <label>sexo:<input type="text" name="sexo"></label>
-              </fieldset>
-    </table>
+  <table align="center" cellspacing="10">
+
+    <tr>
+      <td colspan="2">
+        <table border="0" width="100%">
+          <tr>
+            <th><img src="Logopadaria.png" alt="Padaria do Alemão" width="70"><br>
+                CADASTRO DE FUNCIONÁRIO</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+  
+    <tr>
+      <td colspan="2">
+        <table border="0" width="100%">
+          <tr>
+            <th>DADOS PESSOAIS</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="text" placeholder="Nome completo" size="40"></td>
+      <td><input type="text" placeholder="RG" size="40"></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <select style="width: 100%;">
+          <option>Sexo</option>
+          <option>Masculino</option>
+          <option>Feminino</option>
+          <option>Outro</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="text" placeholder="Data de nascimento" size="40"></td>
+      <td><input type="text" placeholder="CPF" size="40"></td>
+    </tr>
+    <tr>
+      <td>
+        <select>
+          <option>Estado civil</option>
+          <option>Solteiro(a)</option>
+          <option>Casado(a)</option>
+          <option>Divorciado(a)</option>
+        </select>
+      </td>
+      <td><input type="password" placeholder="Senha" size="40"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="text" placeholder="RUA... N°... BAIRRO, CIDADE" size="87"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <table border="0" width="100%">
+          <tr>
+            <th>FORMAS DE CONTATO</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="email" placeholder="Digite seu e-mail" size="40"></td>
+      <td><input type="text" placeholder="Telefone" size="40"></td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <table border="0" width="100%">
+          <tr>
+            <th>NÍVEL</th>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <select style="width: 100%;">
+          <option>Nível de usuário</option>
+          <option value="nivel1">Nível 1</option>
+          <option value="nivel2">Nível 2</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center">
+        <button type="submit">CADASTRAR</button>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
